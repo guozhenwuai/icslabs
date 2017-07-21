@@ -1,0 +1,8 @@
+Q1:ps -e --sort cmd
+Q2:grep '^a' /usr/share/words | wc -l
+Q3:ls -l /etc | grep '\.conf$' | sort -nk s | head -n 5
+Q4:vim echo.sh
+   echo "hello world!"
+   :wq!
+   chmod +x echo.sh
+   ./echo.sh
